@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 19 18:53:11 GST 2020","Thu Nov 19 18:53:12 GST 2020","659","","","","","","Validate schema type of login response",""
+"passed","Thu Nov 19 18:53:08 GST 2020","Thu Nov 19 18:53:11 GST 2020","3764","","","","","","Verify login user authentication",""
+"passed","Thu Nov 19 18:53:12 GST 2020","Thu Nov 19 18:53:13 GST 2020","704","","","","","","Validate headers of login response",""

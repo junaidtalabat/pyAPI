@@ -45,3 +45,43 @@ def step_impl(context, statusCode):
     print("")
 
 
+@then(u'validate schema type access_token')
+def step_impl(context):
+    response_json = context.response.json()
+    accesstoken = response_json['access_token']
+    assert  type(accesstoken) == str
+    print(type(accesstoken))
+    print("")
+
+
+@then(u'validate schema type of token_type')
+def step_impl(context):
+    response_json = context.response.json()
+    token_type = response_json['token_type']
+    assert type(token_type) == str
+    print(type(token_type))
+    print("")
+
+
+@then(u'validate schema type of expires_in')
+def step_impl(context):
+    response_json = context.response.json()
+    expires_in = response_json['expires_in']
+    assert type(expires_in) == int
+    print(type(expires_in))
+    print("")
+
+
+@then(u'validate header Content-Type')
+def step_impl(context):
+    assert context.response.headers['Content-Type'] == 'application/json;charset=UTF-8'
+
+
+@then(u'validate header Transfer-Encoding')
+def step_impl(context):
+    assert context.response.headers['Transfer-Encoding'] == 'chunked'
+
+
+@then(u'validate header Content-Encoding')
+def step_impl(context):
+    assert context.response.headers['Content-Encoding'] == 'gzip'

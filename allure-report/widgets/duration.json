@@ -1,0 +1,31 @@
+[ {
+  "uid" : "cd26b05cac21373b",
+  "name" : "Validate schema type of login response",
+  "time" : {
+    "start" : 1605797591987,
+    "stop" : 1605797592646,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8499450623298df",
+  "name" : "Verify login user authentication",
+  "time" : {
+    "start" : 1605797588217,
+    "stop" : 1605797591981,
+    "duration" : 3764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9498efb161054192",
+  "name" : "Validate headers of login response",
+  "time" : {
+    "start" : 1605797592648,
+    "stop" : 1605797593352,
+    "duration" : 704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

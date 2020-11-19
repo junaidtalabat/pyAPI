@@ -1,0 +1,132 @@
+{
+  "uid" : "c5b507e234cf77a6",
+  "name" : "Validate schema type of login response",
+  "historyId" : "4d53dceb353aa501e364e620a655ea80",
+  "time" : {
+    "start" : 1605791413161,
+    "stop" : 1605791413837,
+    "duration" : 676
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/Users/jyusuf/PycharmProjects/TalAPI/venv/lib/python3.7/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/Users/jyusuf/PycharmProjects/TalAPI/venv/lib/python3.7/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/stepsimplementation.py\", line 52, in step_impl\n    assert type(accesstoken) == 'str'\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/Users/jyusuf/PycharmProjects/TalAPI/venv/lib/python3.7/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/Users/jyusuf/PycharmProjects/TalAPI/venv/lib/python3.7/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/stepsimplementation.py\", line 52, in step_impl\n    assert type(accesstoken) == 'str'\n",
+    "steps" : [ {
+      "name" : "Given I have login auth credentials",
+      "time" : {
+        "start" : 1605791413162,
+        "stop" : 1605791413163,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I hit login POST request",
+      "time" : {
+        "start" : 1605791413163,
+        "stop" : 1605791413828,
+        "duration" : 665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then validate schema type access_token",
+      "time" : {
+        "start" : 1605791413829,
+        "stop" : 1605791413835,
+        "duration" : 6
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/jyusuf/PycharmProjects/TalAPI/venv/lib/python3.7/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/Users/jyusuf/PycharmProjects/TalAPI/venv/lib/python3.7/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/stepsimplementation.py\", line 52, in step_impl\n    assert type(accesstoken) == 'str'\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And validate schema type of expires_in",
+      "time" : {
+        "start" : 1605791413837,
+        "stop" : 1605791413837,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And validate schema type of token_type",
+      "time" : {
+        "start" : 1605791413837,
+        "stop" : 1605791413837,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Validates login user"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5b507e234cf77a6.json",
+  "parameterValues" : [ ]
+}

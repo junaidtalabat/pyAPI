@@ -1,0 +1,129 @@
+{
+  "uid" : "355641b5bf40b064",
+  "name" : "Validate schema type of login response",
+  "historyId" : "4d53dceb353aa501e364e620a655ea80",
+  "time" : {
+    "start" : 1605791071067,
+    "stop" : 1605791071795,
+    "duration" : 728
+  },
+  "status" : "broken",
+  "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'validate schema type access_token')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then validate schema type access_token')\n\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'validate schema type access_token')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then validate schema type access_token')\n\n",
+    "steps" : [ {
+      "name" : "Given I have login auth credentials",
+      "time" : {
+        "start" : 1605791071068,
+        "stop" : 1605791071070,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I hit login POST request",
+      "time" : {
+        "start" : 1605791071071,
+        "stop" : 1605791071793,
+        "duration" : 722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then validate schema type access_token",
+      "time" : {
+        "start" : 1605791071794,
+        "stop" : 1605791071794,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'validate schema type access_token')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then validate schema type access_token')\n\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And validate schema type of expires_in",
+      "time" : {
+        "start" : 1605791071795,
+        "stop" : 1605791071795,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And validate schema type of token_type",
+      "time" : {
+        "start" : 1605791071795,
+        "stop" : 1605791071795,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Validates login user"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "355641b5bf40b064.json",
+  "parameterValues" : [ ]
+}

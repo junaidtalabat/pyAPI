@@ -1,0 +1,196 @@
+{
+  "uid" : "cd26b05cac21373b",
+  "name" : "Validate schema type of login response",
+  "historyId" : "4d53dceb353aa501e364e620a655ea80",
+  "time" : {
+    "start" : 1605797591987,
+    "stop" : 1605797592646,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I have login auth credentials",
+      "time" : {
+        "start" : 1605797591988,
+        "stop" : 1605797591989,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I hit login POST request",
+      "time" : {
+        "start" : 1605797591990,
+        "stop" : 1605797592643,
+        "duration" : 653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then validate schema type access_token",
+      "time" : {
+        "start" : 1605797592644,
+        "stop" : 1605797592644,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And validate schema type of token_type",
+      "time" : {
+        "start" : 1605797592645,
+        "stop" : 1605797592645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And validate schema type of expires_in",
+      "time" : {
+        "start" : 1605797592645,
+        "stop" : 1605797592646,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Validates login user"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "88aecbd97041840c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605793067335,
+        "stop" : 1605793069081,
+        "duration" : 1746
+      }
+    }, {
+      "uid" : "b395a09ac84be7",
+      "status" : "broken",
+      "statusDetails" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n",
+      "time" : {
+        "start" : 1605792705456,
+        "stop" : 1605792706122,
+        "duration" : 666
+      }
+    }, {
+      "uid" : "c5b507e234cf77a6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1605791413161,
+        "stop" : 1605791413837,
+        "duration" : 676
+      }
+    }, {
+      "uid" : "2258991abce5dc05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605791206668,
+        "stop" : 1605791207329,
+        "duration" : 661
+      }
+    }, {
+      "uid" : "c463b93c2a0a042c",
+      "status" : "broken",
+      "statusDetails" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'validate schema type of expires_in')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then validate schema type of expires_in')\n\n",
+      "time" : {
+        "start" : 1605791164404,
+        "stop" : 1605791165177,
+        "duration" : 773
+      }
+    }, {
+      "uid" : "355641b5bf40b064",
+      "status" : "broken",
+      "statusDetails" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@then(u'validate schema type access_token')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Then validate schema type access_token')\n\n",
+      "time" : {
+        "start" : 1605791071067,
+        "stop" : 1605791071795,
+        "duration" : 728
+      }
+    }, {
+      "uid" : "d05a5dd32fea9737",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605790328220,
+        "stop" : 1605790328936,
+        "duration" : 716
+      }
+    }, {
+      "uid" : "e3e095eceba9f2da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605789994980,
+        "stop" : 1605789996757,
+        "duration" : 1777
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd26b05cac21373b.json",
+  "parameterValues" : [ ]
+}
